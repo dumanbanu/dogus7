@@ -1,6 +1,6 @@
-.outer-container{
+.outer-container {
     background-color: #059595;
-    padding:50px;
+    padding: 50px;
 }
 
 .container {
@@ -8,7 +8,6 @@
     padding: 40px;
     max-width: 1320px;
     background-color: white;
-    /*height: 100vh;*/
 }
 
 .left, .right {
@@ -19,7 +18,7 @@
     display: flex;
     flex-direction: column;
     background-color: #86C3FB;
-    min-height: 100%; /* İçeriğe bağlı olarak yüksekliği ayarla */
+    min-height: 100%;
     color: white;
     border-bottom-left-radius: 300px;
     position: relative;
@@ -56,7 +55,7 @@
     flex-direction: row;
     justify-content: center;
     gap: 15px;
-    padding-top:7px;
+    padding-top: 7px;
     padding-bottom: 7px;
 }
 
@@ -64,52 +63,53 @@
     color: white;
 }
 
-.title{
-    font-weight:bold ;
-    font-size:48px;
+.title {
+    font-weight: bold;
+    font-size: 48px;
     width: 70%;
 }
 
-.schema{
-    height:260px;
+.schema {
+    height: 260px;
     width: 130px;
     border-radius: 200px 20px 20px 20px;
     justify-content: flex-end;
     display: flex;
-    background-color:#86C3FB;
+    background-color: #86C3FB;
     opacity: 45%;
 }
 
 
-.title-container{
-    margin-top:90px;
+.title-container {
+    margin-top: 90px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
 }
 
-.text-container{
-    font-size:18px;
+.text-container {
+    font-size: 18px;
 }
 
-.button-group-container{
-    gap:70px;
+.button-group-container {
+    gap: 70px;
     display: flex;
 }
 
-.special-button-1{
-   background-color: #059595;
+.special-button-1 {
+    background-color: #059595;
     color: white;
     border-color: #059595;
-    padding:5px 30px 5px 30px;
+    padding: 5px 30px 5px 30px;
     border-radius: 30px 5px 30px 5px;
 }
-.special-button-2{
-   background-color:white ;
+
+.special-button-2 {
+    background-color: white;
     color: #059595;
     border-color: #059595;
-    padding:5px 30px 5px 30px;
+    padding: 5px 30px 5px 30px;
     border-radius: 30px 5px 30px 5px;
 }
 
@@ -118,7 +118,7 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    margin-top:90px
+    margin-top: 90px
 }
 
 .metric-card {
@@ -134,7 +134,7 @@
     position: absolute;
     top: 8px;
     opacity: 64%;
-    left:-8px;
+    left: -8px;
     rotate: -30deg;
 }
 
@@ -144,7 +144,7 @@
 
 .blue {
     background-color: #3498db;
-    margin-left:-6px;
+    margin-left: -6px;
 }
 
 .green {
@@ -165,9 +165,9 @@
     color: #333;
 }
 
-.schema-2{
-    height:80px;
-    background-color:#86C3FB;
+.schema-2 {
+    height: 80px;
+    background-color: #86C3FB;
     opacity: 45%;
     width: 260px;
     border-radius: 20px 20px 200px 20px;
